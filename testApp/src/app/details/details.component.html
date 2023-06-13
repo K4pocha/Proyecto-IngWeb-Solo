@@ -1,0 +1,20 @@
+<br>
+<div class="container" id="detalles">
+    <div class="row">
+        <div class="col-lg-6">
+            <img [src]="selectedItem.image" class="img-fluid rounded-start" alt="{{ selectedItem.title }}">
+        </div>
+        <div class="col-lg-6">
+            <div class="col-md-12 text-center">
+                <h2 class="card-title" id="titulo"> {{ selectedItem.title }} </h2>
+            </div>
+            <div class="separador"></div><br>
+            <p class="card-text" style="text-decoration: underline;">Description:</p>
+            <p><strong>Price: </strong> {{ selectedItem.price }} </p>
+            <p><strong>Season: </strong> {{ selectedItem.season }}</p>
+            <p><strong>Characteristics: </strong>{{ selectedItem.details}} </p>
+            <p><strong>Recomendations: </strong> {{ selectedItem.description }} </p>
+            <a href="#" class="btn btn-primary">Purchase</a>
+        </div>
+    </div>
+</div>

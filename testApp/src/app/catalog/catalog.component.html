@@ -1,0 +1,26 @@
+<br>
+<div class="container">
+  <div class="btn-group" role="group">
+    <button type="button" class="btn btn-secondary" *ngFor="let category of categories" (click)="filterItemsByCategory(category)">
+      {{ category }}
+    </button>
+    <button type="button" class="btn btn-secondary" (click)="filterItemsByCategory('')">
+      All
+    </button>
+  </div>
+</div>
+<br>
+<div class="container">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col" *ngFor="let item of filteredItems">
+      <div class="card h-100">
+        <img [src]="item.image" class="card-img-top image-style" alt="{{ item.title }}">
+        <div class="card-body">
+          <h5 class="card-title">{{ item.title }}</h5>
+          <p class="card-text">{{ item.details }}</p>
+          <button class="btn btn-primary" (click)="showDetails(item)">View Details</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,48 @@
+<!-- app.component.html -->
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <a class="navbar-brand" routerLink="/">
+    <img src="/assets/Ekhomira.svg" alt="Logo">
+  </a>
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/" routerLinkActive="" id="navbar-text">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" routerLink="/about-us" routerLinkActive="" id="navbar-text-disabled">About Us</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/catalog" routerLinkActive="" id="navbar-text">Catalog</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" routerLink="/contact" routerLinkActive="" id="navbar-text-disabled">Contact</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/map" routerLinkActive="" id="navbar-text">Map</a>
+    </li>
+  </ul>
+  <ul class="navbar-nav" id="account">
+    <li class="nav-item" *ngIf="!isLoggedIn">
+      <a class="nav-link" routerLink="/login" id="navbar-text">Login</a>
+    </li>
+    <li class="nav-item" *ngIf="isLoggedIn">
+      <a class="nav-link" id="navbar-text" [routerLink]="['/profile', username$ | async]">Profile</a>
+    </li>
+    <li class="nav-item" *ngIf="isLoggedIn">
+      <a class="nav-link" (click)="logout()" id="navbar-text">Logout</a>
+    </li>
+  </ul>
+</nav>
+
+<router-outlet></router-outlet>
+
+
+<footer>
+  <div class="linea-1"></div>
+  <div class="linea-2"></div>
+  <img src="/assets/Ekhomira.svg" class="regiones-chile">
+  <br />
+  <li class="nav-item">
+    <a routerLink="/">Home</a>
+  </li>
+  <p>All Rights reserved &copy;</p>
+</footer>

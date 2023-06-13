@@ -1,0 +1,28 @@
+/* styles.css */
+#navbar {
+  background-color: #2a5936;
+  color: white;
+}
+
+#navbar-text {
+  color: aliceblue;
+}
+
+#navbar-text-disabled {
+  color: black;
+}
+
+#account {
+  margin-left: 1200px;
+}
+
+footer {
+  background-color: #2a5936;
+  color: white;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+footer a{
+  color: white;
+}

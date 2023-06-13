@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "image":"/assets/frutilla.jpg",
+        "title": "Strawberry",
+        "category": "Fruit",
+        "season":"Autum",
+        "price": "$5.00",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "details": "Details of Item 1"
+    },
+    {
+        "id": 2,
+        "image":"/assets/lechuga.jpg",
+        "title": "Lettuce",
+        "category": "Seed",
+        "season":"Any season",
+        "price": "$2.00",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "details": "Details of Item 2"
+    },
+    {
+        "id": 3,
+        "image":"/assets/papa.jpg",
+        "title": "Potatoe",
+        "category": "Vegetable",
+        "season":"Summer",
+        "price": "$5.00",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "details": "Details of Item 2"
+    },
+    {
+        "id": 4,
+        "image":"/assets/tomate.jpg",
+        "title": "Tomatoe",
+        "category": "Seed",
+        "season":"Winter",
+        "price": "$5.00",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "details": "Details of Item 2"
+    },
+    {
+        "id": 5,
+        "image":"/assets/donate.jpg",
+        "title": "Donate for the world!",
+        "category": "Donation",
+        "season":"Everyone",
+        "price": "Anything you can!",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "details": "Details of Item 2"
+    },
+    {
+        "id": 6,
+        "image":"/assets/frutilla.jpg",
+        "title": "Item 2",
+        "category": "Donation",
+        "season":"Summer",
+        "price": "$15.00",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "details": "Details of Item 2"
+    }
+]
