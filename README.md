@@ -1,6 +1,8 @@
 # Proyecto-IngWeb-Solo
 Proyecto para ramo ingenieria web de la Pontificia Universidad Católica de Valparaíso
 
+Código y diseño creado por Nicolás Oñate, basado en parte en EP's anteriores
+
 ## Funcionalidades
 
 1. Busqueda en catalogo según categoria del producto/actividad (semillas, donaciones, frutas, verduras, etc) -> Informacion obtenida de archivo data.json
